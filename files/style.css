@@ -10,7 +10,7 @@ body {
 
 .navbar {
     display: flex;
-    width: 10%;
+    width: 150px;
     height: 100vh;
     background-color: black;
     flex-direction: column;
