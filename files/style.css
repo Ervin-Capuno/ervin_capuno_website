@@ -68,6 +68,11 @@ main {
 		justify-content: center;
 		align-items: space-evenly;
 	}
+	.navbar .navbar-nav{
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-evenly;
+	}
 	ul{
 		display: flex;
 		flex-direction: row;
