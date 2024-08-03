@@ -1,8 +1,20 @@
+:root {
+	--main-text-color: #ffff;
+
+
+}
+
 .home {
 	display: flex;
-	width: 100%;
-	align-items: center;
+	width: 88vw;
 	justify-content: center;
+	align-items: center;
+	height: 100vh;
+
+}
+
+.avatar{
+	margin-right: 5%;
 }
 
 img {
@@ -10,9 +22,19 @@ img {
 }
 
 
+.name, .info{
+	color: var(--main-text-color);
+
+}
+.fa{
+	color: var(--main-text-color);
+}
+
+
+
 i.fab{
 	font-size: 40px;
-	color: black;
+	color: var(--main-text-color);
 }
 
 a[download] {
@@ -26,4 +48,18 @@ a[download] {
 
 .name {
 	font-size: 40px;
+}
+
+
+
+@media only screen and (max-width: 600px){
+	.home {
+		margin: 0;
+		padding: 0;
+		width: 96vw;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+
 }
