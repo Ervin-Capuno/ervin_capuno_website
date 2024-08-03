@@ -15,17 +15,39 @@
 
 .avatar{
 	margin-right: 5%;
+	margin-bottom: 35px;
 }
+
 
 img {
 	border-radius: 50%;
 }
 
 
+.user-info{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+
 .name, .info{
 	color: var(--main-text-color);
+	margin-bottom: 4%;
 
 }
+
+.media-icons{
+	margin-top: 15px;
+}
+
+.fa-github{
+	margin-right: 20px;
+}
+
+
+
 .fa{
 	color: var(--main-text-color);
 }
