@@ -1,6 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 :root {
 	--main-text-color: #ffff;
-
+	--main-font-style: 'Poppins', sans-serf;
 
 }
 
@@ -35,7 +37,12 @@ img {
 .name, .info{
 	color: var(--main-text-color);
 	margin-bottom: 4%;
+	font-family: var(--main-font-style);
+	font-weight: 700;
+}
 
+.info{
+	font-size: 25px;
 }
 
 .media-icons{
@@ -66,6 +73,7 @@ a[download] {
 	color: white;
 	text-decoration: none;
 	border-radius: 4px;
+	font-family: var(--main-font-style);
 }
 
 .name {
