@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+	--main-text-color: #ffff;
+	--main-font-style: 'Poppins', sans-serf;
+
+}
 * {
     box-sizing: border-box;
     margin: 0;
@@ -36,11 +43,13 @@ body {
     text-decoration: none;
     color: white;
     padding: 1rem 0;
+	font-family: var(--main-font-style);
 }
 
 .logo {
     position: absolute;
     top: 1rem;
+	font-family: var(--main-font-style);
 }
 
 .logo .nav-link {
