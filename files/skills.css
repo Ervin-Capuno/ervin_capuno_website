@@ -1,8 +1,77 @@
-:root{
-	--main-text-color: #fff;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+:root {
+	--main-text-color: #ffff;
+	--main-font-style: 'Poppins', sans-serf;
 }
 
-h2, h3{
-	color: var(--main-text-color);
 
+:root {
+    --main-text-color: #fff;
+}
+
+h2, h3 {
+    color: var(--main-text-color);
+}
+
+.skills {
+    margin-bottom: 2%;
+}
+.skills h2 {
+    text-align: center;
+    font-size: 50px;
+	font-family: var(--main-font-style);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 50px;
+    height: 77vh;
+    margin-right: 3%;
+	font-family: var(--main-font-style);
+}
+
+.skill-item {
+    border-radius: 25px;
+    padding: 20px;
+    box-sizing: border-box;
+	background-color: #2c2c2c;
+}
+
+/* Define grid areas */
+.prog-used {
+    grid-area: 1 / 1 / 4 / 4; 
+}
+
+.database {
+    grid-area: 1 / 5 / 4 / 8;
+}
+
+.networking { 
+    grid-area: 1 / 9 / 4 / 12;
+}
+
+.tools { 
+    grid-area: 4 / 3 / 7 / 6; 
+}
+
+.hardware {
+    grid-area: 4 / 7 / 7 / 10;
+}
+
+@media (max-width: 768px) {
+    .grid-container {
+        grid-template-columns: 1fr; 
+        grid-template-rows: repeat(5, auto); 
+        grid-row-gap: 20px; 
+        height: auto;
+        margin-right: 0; 
+    }
+
+    .prog-used, .database, .networking, .tools, .hardware {
+        grid-area: auto; 
+    }
 }
