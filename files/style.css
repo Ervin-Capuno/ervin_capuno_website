@@ -41,15 +41,29 @@ body {
 
 .navbar .nav-link {
     text-decoration: none;
-    color: white;
     padding: 1rem 0;
 	font-family: var(--main-font-style);
+	font-size: 25px;
+	font-weight: 35px;
+}
+
+.navbar .nav-link span{
+	padding: 10px;
+	color: white;
+	font-weight: 500;
+	transition: all 0.3 ease;
+}
+
+.navbar .nav-link span:hover{
+	text-decoration: underline;
 }
 
 .logo {
     position: absolute;
     top: 1rem;
 	font-family: var(--main-font-style);
+	font-size: 35px;
+	font-weight: 800;
 }
 
 .logo .nav-link {
@@ -71,17 +85,30 @@ main {
 	.navbar{
 		flex-direction: row;
 		bottom: 0;
-		height: auto;
+		height: 15%;
 		width: 100%;
 		position: fixed;
 		justify-content: center;
-		align-items: space-evenly;
+		align-items: center;
+		margin: 0;
 	}
+
 	.navbar .navbar-nav{
+		display: flex;
 		flex-direction: row;
 		align-items: center;
 		justify-content: space-evenly;
 	}
+
+	span{
+		font-size: 19px;
+	}
+
+	.logo{
+		display: none;
+	}
+	
+
 	ul{
 		display: flex;
 		flex-direction: row;
@@ -93,5 +120,10 @@ main {
         margin-left: 0; 
         padding-bottom: 75px; 
     }
+
+	.navbar .nav-link span{
+		padding: 2%;
+	}
+	
 }
 
