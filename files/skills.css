@@ -43,13 +43,13 @@ h2, h3 {
     display: flex;
     flex-direction: column;
     padding: 0;
-    list-style-type: disc; /* Ensure list-style-type is visible */
+    list-style-type: disc;
     margin: 0;
 }
 
 .skill-item li {
     margin-bottom: 10px;
-    color: var(--main-text-color); /* Ensure text color is visible */
+    color: var(--main-text-color);
 }
 
 .prog-used {
