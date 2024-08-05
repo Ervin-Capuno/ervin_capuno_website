@@ -1,2 +1,2 @@
 # Ervin Portfolio Website
-This is my portfolio Website where youc can see my projects and who I am
+This is my portfolio Website where you can see my projects and the projects I made.
