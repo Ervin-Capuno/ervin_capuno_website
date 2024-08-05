@@ -92,4 +92,14 @@ a[download] {
 		flex-direction: column;
 	}
 
+	.user-info .name{
+		font-size: 25px;
+		font-weight: 800;
+	}
+
+	.user-info .info{
+		font-size: 23px;
+		font-weight: 700;
+	}
+
 }
